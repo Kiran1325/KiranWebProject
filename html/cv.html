@@ -1,106 +1,93 @@
 
-
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-    <meta charset="UTF-8">
-        <title>CV</title>
-        <link rel="stylesheet" href="../css/styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-    </head>
-    <body>
-        <div class="k">
-            <nav>
-                <ul id="kk">
-                    <li><a class="activeMenu" href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li style="float: right;">
-                        <a class="active" href="report.html">
-                            Report
-                        </a>
-                    </li>
-                </ul>
-                <div class="hamburger" onclick="myFunction()">
-                    <div id="q" class="aaa"></div>
-                    <div id="w" class="aaa"></div>
-                    <div id="e" class="aaa"></div>
-                </div>
-            </nav>
-        </div>
-        <h1>Curriculum Vitae</h1>
-        <h2>Personal Information</h2>
-        <div class="personalinfo">
-            <p>
-                Name:Kiran Bastakoti<br />
-                Address:Jorpati,Kathmandu <br />
-                Date Of Birth: Dec 12 2001<br />
-                Mobile number: 9841417672 <br />
-                Email: bastakotikiran1@gmail.com<br />
-                Nationality:Nepali<br />
-            </p>
-        </div>
-        <div>
-            <h2>Academic qualifications</h2>
-            <table>
-                <tr>
-                    <th>Name of Instituion</th>
-                    <th>Course</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td>East-Pole School</td>
-                    <td>S.E.E</td>
-                    <td>2018</td>
-                </tr>
-                <tr>
-                    <td>Trinity International College</td>
-                    <td>+2</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <td>NAMI College</td>
-                    <td>Bachelor</td>
-                    <td>Running</td>
-                </tr>
-            </table>
-        </div>
-        <div class="personalities"><h2>Personalities</h2></div>
-        <div class="personalty">
-            <p>
-                Self motivated ,<br />
-                Energetic and Assertive<br />
-            </p>
-        </div>
+<html lang="en"> <!-- html started -->
+   <head> <!--head tag started-->
+   	<meta charset="UTF-8"><!--encoding of html-->
+      <title>Index</title> <!--title of the page-->
+      <link rel="stylesheet" href="../css/styles.css"><!-- stylesheet linked -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> <!--google sofia font linked-->
+      <link rel="preconnect" href="https://fonts.gstatic.com"><!--font linked-->
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!--font api linked-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--fontawesome icon linked-->
+   </head><!--head tag closed-->
+   <body><!--body tag started-->
+      <div class="k"><!--div class k started-->
+         <nav><!--nav tab started-->
+            <ul id= "kk"><!--ul "kk" started-->
+               <li><a  href="index.html">Home</a></li><!--home nav li added-->
+               <li><a href="portfolio.html">Portfolio</a></li><!--portfolio nav li added-->
+               <li><a class="activeMenu" href="cv.html">CV</a></li><!--cv nav li added-->
+               <li><a href="contact.html">Contact</a></li><!--contact nav li added-->
+               <li style="float:right;"><a class="active" href="report.html">Report</a></li><!--report nav li added and float to right-->
+            </ul><!--ul closed-->
+            <div class="hamburger" onclick="hamFunction()"><!--div class called hanburger started and function called myFunction which invokes when clicked-->
+               <div id="q" class="aaa"></div>
+               <div id="w" class="aaa"></div>
+               <div id="e" class="aaa"></div>
+            </div><!--dic closed-->
 
-        <footer class="footer">
-            Copyright
-            <div class="footerlinks" style="float: right;">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-google-plus-g"></i>
-            </div>
-        </footer>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("kk");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
+      </nav> <!--nav closed-->
+    </div><!--div closed-->
+        <h1>Curriculum Vitae</h1><!--h1 created-->
+        <h2>Personal Information</h2><!--h2 created-->
+        <div class="personalinfo"><!-- div class"personalinfo"-->
+            <p>Name:Kiran Bastakoti<br /><!--about myself-->
+                Address:Jorpati,Kathmandu <br /><!--about myself-->
+                Date Of Birth: Dec 12 2001<br /><!--about myself-->
+                Mobile number: 9841417672 <br /><!--about myelf-->
+                Email: bastakotikiran1@gmail.com<br /><!--about myself-->
+                Nationality:Nepali<br /><!--about myself-->
+            </p>
+        </div><!--div closed-->
+        <div><!--div opened-->
+            <h2>Academic qualifications</h2><!--h2 created-->
+            <table><!--table created-->
+                <tr><!--table row created-->
+                    <th>Name of Instituion</th><!--table head created-->
+                    <th>Course</th><!--table head created-->
+                    <th>Year</th><!--table head created-->
+                </tr><!--table row closed-->
+                <tr><!--table row created-->
+                    <td>East-Pole School</td><!--table data created-->
+                    <td>S.E.E</td><!-- table data created-->
+                    <td>2018</td><!--table data created-->
+                </tr><!--table row closed-->
+                <tr><!--table row creted-->
+                    <td>Trinity International College</td><!--table data created-->
+                    <td>+2</td><!--table data created-->
+                    <td>2020</td><!--table data created-->
+                </tr><!--table row closed-->
+                <tr><!--table row created-->
+                    <td>NAMI College</td><!--table data created-->
+                    <td>Bachelor</td><!--table data created-->
+                    <td>Running</td><!--table data created-->
+                </tr><!--table row closed-->
+            </table><!--table closed-->
+        </div><!--div closed-->
+        <div class="personalities"><h2>Personalities</h2></div><!--h2 created-->
+        <div class="personalty"><!-- div class "personalty" created-->
+            <p>Self motivated ,<br /><!-- writing about myself-->
+                Energetic and Assertive<br /><!--wrtiting about myself-->
+            </p>
+        </div><!--div closed-->
+        <footer class="footer"><!--footer started-->
+           Copyright
+           <div class="footerlinks" style="float:right"> <!--footer links-->
+              <i class="fab fa-facebook"></i><!--facebook icon link-->
+              <i class="fab fa-twitter"></i><!--twitter icon link-->
+              <i class="fab fa-youtube"></i><!--youtube icon link-->
+              <i class="fab fa-google-plus-g"></i><!--google plus icon link-->
+           </div><!--div closed-->
+        </footer><!--footer closed-->
+        <script>//script started
+           function hamFunction() { // function called hamFunction declared
+           var kb = document.getElementById("kk"); //nav itemns seletcted
+           if (kb.style.display === "block") { //condition created
+            kb.style.display = "none";//display set to none
+            } else {
+            kb.style.display = "block";//display set to block
             }
-        </script>
-    </body>
-</html>
+            }
+        </script><!--script closesd-->
+     </body><!--body closed-->
+  </html>
